@@ -89,8 +89,7 @@ class StudentServiceTest {
     }
 
     @Test
-    @Disabled
-    void deleteStudent() {
+    void canDeleteStudent() {
         // given
         long id = 1;
         given(studentRepository.existsById(id))
